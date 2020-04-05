@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo và gọi hàm</title>
+</head>
+<body>
+<script>
+    let x = parseInt(prompt('Mời nhập số thứ nhất'));
+    let y = parseInt(prompt('Mời nhập số thứ hai'));
+    function checkNum() {
+        if (x>y) {
+            alert(x +' lớn hơn '+ y);
+        } else {
+            let sum = x+y;
+            alert('Tổng của 2 số vừa nhập là '+ sum);
+        }
+    }
+    checkNum();
+</script>
+</body>
+</html>
